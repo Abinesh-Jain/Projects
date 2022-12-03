@@ -1,3 +1,11 @@
+h2
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+table
+{
+    border-collapse: collapse;
+}
 .maths
 {
     background-color: blue;
