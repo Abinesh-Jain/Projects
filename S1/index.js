@@ -1,5 +1,1 @@
-function myFunction()
-{
-    alert("Hello World!");
-}
-myFunction();
+console.log("Hello World!");
