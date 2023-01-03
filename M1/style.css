@@ -1,0 +1,141 @@
+body{
+    font-family: Google Sans,Roboto,Helvetica,Arial,sans-serif;
+    margin: 0px;
+}
+
+.flex{
+    display: flex;
+}
+
+.g_header{
+    justify-content: end;
+    gap: 2rem;
+    align-items: center;
+    margin: 1rem;
+}
+
+a{
+    color: rgba(0,0,0,.87);
+    text-decoration: none;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+
+.primary_button{
+    background: #1a73e8;
+    border: 1px solid transparent;
+    cursor: pointer;
+    color: #fff;
+    font-family: Google Sans,Roboto,Helvetica,Arial,sans-serif;
+    font-weight: 800;
+    font-size: 14px;
+    letter-spacing: 0.25px;
+    line-height: 16px;
+    padding: 9px 23px;
+    border-radius: 4px;
+}
+.flexCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexColumn{
+    flex-direction: column;
+}
+.container{
+    height: 80vh;
+}
+
+span{
+    height: 20px;
+    line-height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+
+
+.search_box{
+    height: 44px;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    max-width: 584px;
+    width: 100%;
+
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.search_icon{
+    fill: #9aa0a6;
+    margin-left: 1rem;
+}
+
+.search_field{
+    border: none;
+    flex: 1 1 auto;
+    height: 2rem;
+}
+
+
+.search_field:focus {
+    outline: none;
+}
+
+.gap{
+    gap: 2rem;
+    margin-right: 1rem;
+}
+
+.buttonContainer{
+    margin-top: 2rem;
+}
+
+.secondary_btn{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+}
+
+footer{
+    justify-content: space-between;
+    align-items: center;
+    background: #f2f2f2;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 6vh;
+}
+
+.footer_inner_container{
+    display: flex;
+    flex: 1;
+    gap: 1rem;
+    margin: 1rem;
+}
+
+.right_aligh{
+    justify-content: end;
+}
+
+.footer_inner_container a{
+    color:#9aa0a6;
+}
