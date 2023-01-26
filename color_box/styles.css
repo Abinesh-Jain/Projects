@@ -1,0 +1,75 @@
+.container{
+    background-color: white;
+    display: grid;
+    grid-template-rows: 100px 200px 100px 100px 50px 25px;
+    gap: 10px;
+    width: 100%;
+}
+.r1{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    gap: 10px;
+    overflow: hidden;
+}
+.r1c1{
+    background-color: red;
+}
+.r1c2{
+    background-color: brown;
+}
+.r2{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.r2c1{
+    background-color: orange;
+}
+.r3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+.r3c1{
+    background-color: green;
+}
+.r3c2{
+    background-color: pink;
+}
+.r3c3{
+    background-color: darkolivegreen;
+}
+.r4{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+.r4c1{
+    background-color: gray;
+}
+.r4c2{
+    background-color: lawngreen;
+}
+.r5{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
+.r5c1{
+    background-color: darkgreen;
+}
+.r5c2{
+    background-color: darkblue;
+}
+.r5c3{
+    background-color: black;
+}
+.r5c4{
+    background-color: blueviolet;
+}
+.r6{
+    display: grid;
+    gap: 10px;
+}
+.r6c1{
+    background-color: yellow;
+}
