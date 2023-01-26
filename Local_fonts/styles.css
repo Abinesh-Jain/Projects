@@ -1,0 +1,23 @@
+.container{
+    background-color: yellow;
+    text-align: center;
+    color: blue;
+}
+#n1{
+    font-family: 'Courier New', Courier, monospace;
+}
+#n2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#n3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#n4{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#n5{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#n6{
+    font-family: Arial, Helvetica, sans-serif;
+}
