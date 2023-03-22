@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  color: white;
+  background-color: rgb(14, 14, 36);
+}
+nav {
+  display: flex;
+  height: 30px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: darkslategrey;
+  padding: 0 5px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+[type="search"] {
+  height: 80%;
+  border: none;
+  background-color: lightblue;
+}
+h3 {
+  padding-top: 30px;
+  text-align: center;
+}
+.quote {
+  display: grid;
+  place-items: center;
+}
+.container {
+  display: grid;
+  width: 60%;
+  height: 100vh;
+  margin: 30px auto;
+  gap: 10px;
+  padding: 10px;
+}
+.coarse {
+  background-color: rgb(122, 83, 89);
+  border: 5px solid white;
+}

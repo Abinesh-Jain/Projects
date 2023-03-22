@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    /> -->
+    <style>
+      .box {
+        background-color: rgb(34, 233, 140);
+      }
+      .container-fluid {
+        width: 80%;
+        margin: 10px auto;
+        padding: 10px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        grid-auto-rows: 100px;
+        gap: 10px;
+        background-image: url("https://c4.wallpaperflare.com/wallpaper/108/140/869/digital-digital-art-artwork-fantasy-art-drawing-hd-wallpaper-thumb.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      details {
+        background-color: yellowgreen;
+        padding: 10px;
+        border: 2px solid black;
+      }
+      summary {
+        cursor: pointer;
+      }
+      .outer {
+        width: 200px;
+        height: 200px;
+        background-color: yellow;
+        margin: 10px auto;
+        display: grid;
+        place-items: center;
+      }
+      .inner {
+        width: 100px;
+        height: 100px;
+        background-color: blueviolet;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+    </div>
+    <details>
+      <summary>Show Me</summary>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, maiores
+        id, commodi error molestias quis iste, ipsa optio fuga autem incidunt
+        doloremque magnam et. Assumenda.
+      </p>
+    </details>
+    <div class="outer">
+      <div class="inner"></div>
+    </div>
+  </body>
+</html>

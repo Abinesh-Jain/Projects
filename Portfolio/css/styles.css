@@ -1,0 +1,299 @@
+body {
+  width: 100%;
+  margin: 0;
+  background-color: wheat;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+/* Global Container */
+.container {
+  display: flex;
+}
+/* Left Container */
+.left {
+  width: 20%;
+  background-color: white;
+  padding: 20px;
+}
+/* Middle Container */
+.middle {
+  width: 100%;
+  padding: 0 30px 0 10px;
+  margin-right: 45px;
+}
+/* Right Container */
+.right {
+  position: fixed;
+  right: 0;
+  width: 45px;
+  /* width: 5%; */
+  padding: 10px;
+  height: 100vh;
+  background-color: white;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+/* Image inside the left container */
+.left > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  height: 200px;
+  max-width: 100%;
+  border-radius: 50%;
+}
+/* Aligning item inside left container */
+#name,
+#position {
+  text-align: center;
+}
+#position {
+  opacity: 0.7;
+}
+.social-media,
+.extra-skills {
+  display: flex;
+  justify-content: space-around;
+}
+.key {
+  background-color: orange;
+}
+label > span,
+.value {
+  float: right;
+}
+progress {
+  height: 10px;
+  border-radius: 10px;
+  border: 1px solid yellow;
+  padding: 2px;
+  background: orange;
+  width: 100%;
+}
+/* Download Button style */
+.download {
+  width: 100%;
+  background-color: orange;
+  border: none;
+  padding: 10px;
+}
+/* Aligning item inside middle container */
+/* Header Styling */
+header {
+  height: 100vh;
+  background-image: url("https://www.simplilearn.com/ice9/free_resources_article_thumb/what_is_image_Processing.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 40px;
+}
+header > * {
+  width: 60%;
+}
+header > h1 {
+  font-size: 5vw;
+}
+header > p {
+  font-size: 2vw;
+  padding-bottom: 20px;
+}
+/* Hire Me Button Style */
+#hire-me {
+  width: 150px;
+  background-color: orange;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+}
+.pos {
+  color: orange;
+}
+/* Section Styles */
+section {
+  height: 100vh;
+  text-align: center;
+  background-color: wheat;
+}
+section > p {
+  width: 50%;
+  margin: 0 auto;
+}
+section > h2 {
+  margin-top: 0;
+  padding-top: 50px;
+}
+section > p {
+  padding: 30px 0;
+  opacity: 0.7;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+.grid > div {
+  padding: 20px;
+  background-color: white;
+}
+.grid > .card > p {
+  opacity: 0.7;
+}
+#order-now {
+  border: none;
+  color: orange;
+  font-weight: 700;
+}
+/* Price Plan Styles */
+#most-popular {
+  margin: -20px -20px -5px;
+  padding: 5px;
+  background-color: orange;
+}
+h2 > span {
+  font-size: small;
+}
+ul {
+  list-style-type: "✓";
+}
+.order-now {
+  background-color: white;
+  border: none;
+  font-weight: 600;
+  padding: 10px 20px;
+}
+[gold] {
+  background-color: orange;
+  padding: 10px 20px;
+  border-radius: 25px;
+}
+/* Recomendation Section */
+.bio {
+  display: flex;
+}
+.bio > img {
+  width: 40%;
+  height: 125px;
+  border-radius: 50%;
+}
+/* Education & Experience Section */
+.flex-data {
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  background-color: white;
+  padding: 0 30px;
+}
+.course {
+  width: 25%;
+}
+.date {
+  background-color: orange;
+  color: white;
+}
+.course > p,
+.institute > p {
+  font-size: small;
+}
+.institute {
+  width: 60%;
+}
+.institute > p {
+  opacity: 0.7;
+}
+/* Portfolio Section */
+#portfolio {
+  height: auto;
+}
+.portfolio-nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+.orange {
+  color: orange;
+}
+#portfolio > .grid {
+  overflow: hidden;
+  grid-auto-rows: 70px;
+}
+.grid > .portfolio-cards {
+  padding: 0;
+}
+.portfolio-cards > img {
+  display: block;
+  height: 100%;
+}
+/* Blog Section */
+#blog > .grid > .card {
+  padding: 0;
+}
+#blog > .grid > div > img {
+  width: 100%;
+  height: 200px;
+}
+#blog > .grid > div > h4,
+#blog > .grid > div > p {
+  padding: 0 10px;
+  text-align: left;
+}
+.learn-more {
+  border: none;
+  color: orange;
+  font-weight: 600;
+}
+/* Footer */
+footer {
+  height: 100vh;
+  background-color: wheat;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 10px;
+}
+/* Form Styling */
+form {
+  display: grid;
+  padding: 20px;
+  background-color: white;
+}
+form > label {
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+form > input {
+  height: 50px;
+  border: none;
+  background-color: lightblue;
+}
+form > textarea {
+  width: 100%;
+  border: none;
+  background-color: lightblue;
+}
+form > [type="submit"] {
+  width: 200px;
+  margin-top: 20px;
+  font-weight: 700;
+  background-color: orange;
+}
+.contact {
+  margin-top: 0;
+  margin-bottom: 10px;
+  padding: 20px;
+  background-color: white;
+}
+.contact > a {
+  margin: 0 auto;
+}
+.align-right {
+  float: right;
+}
+a {
+  width: 40px;
+  height: 40px;
+  color: black;
+  background-color: orange;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
