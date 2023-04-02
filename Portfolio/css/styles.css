@@ -214,13 +214,14 @@ ul {
 }
 #portfolio > .grid {
   overflow: hidden;
-  grid-auto-rows: 70px;
+  grid-auto-rows: 1fr;
 }
 .grid > .portfolio-cards {
   padding: 0;
 }
 .portfolio-cards > img {
   display: block;
+  width: 100%;
   height: 100%;
 }
 /* Blog Section */
@@ -262,17 +263,26 @@ form > label {
 form > input {
   height: 50px;
   border: none;
+  padding-left: 10px;
+  font: 1em/1.25em Arial, Helvetica, sans-serif;
   background-color: lightblue;
 }
+form > *:focus {
+  border: 5px solid orange;
+}
 form > textarea {
-  width: 100%;
+  width: 95%;
+  height: 215px;
+  padding: 10px;
   border: none;
   background-color: lightblue;
+  font: 1em/1.25em Arial, Helvetica, sans-serif;
 }
 form > [type="submit"] {
   width: 200px;
   margin-top: 20px;
   font-weight: 700;
+  color: black;
   background-color: orange;
 }
 .contact {
@@ -287,6 +297,7 @@ form > [type="submit"] {
 .align-right {
   float: right;
 }
+/* anchor tags styling */
 a {
   width: 40px;
   height: 40px;
@@ -296,4 +307,7 @@ a {
   justify-content: center;
   align-items: center;
   border-radius: 50%;
+}
+.right > a:hover {
+  background-color: orangered;
 }
